@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="graphics"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graphics">
+				<Option output="/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/graphics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/elvircrn/Downloads/hw2-linux_osx/include"/>
+					<Add directory="/home/elvircrn/Downloads/hw2-linux_osx/glm-0.9.7.1"/>
+					<Add directory="/home/elvircrn/Downloads/hw2-linux_osx/UCSD"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0/backward"/>
+					<Add directory="/usr/include/clang/8.0.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-8/lib/clang/8.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 graphics"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graphics/fast">
+				<Option output="/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/graphics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/elvircrn/Downloads/hw2-linux_osx/include"/>
+					<Add directory="/home/elvircrn/Downloads/hw2-linux_osx/glm-0.9.7.1"/>
+					<Add directory="/home/elvircrn/Downloads/hw2-linux_osx/UCSD"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0/backward"/>
+					<Add directory="/usr/include/clang/8.0.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-8/lib/clang/8.0.1/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 graphics/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/Geometry.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/Geometry.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/Transform.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/Transform.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/UCSD/grader.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/UCSD/grader.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/display.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/include/FreeImage.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/main.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/readfile.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/readfile.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/shaders.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/shaders.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/variables.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/home/elvircrn/Downloads/hw2-linux_osx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

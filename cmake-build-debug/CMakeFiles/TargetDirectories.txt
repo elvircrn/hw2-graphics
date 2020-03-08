@@ -1,0 +1,3 @@
+/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/graphics.dir
+/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/edit_cache.dir

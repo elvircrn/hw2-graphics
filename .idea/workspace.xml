@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="graphics" targetName="graphics" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5b4d808-5a54-46b9-8236-04173135b395" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1YqjIyJzdTLFrywv7eIllp0c38s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="graphics" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="graphics" TARGET_NAME="graphics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="graphics" RUN_TARGET_NAME="graphics">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5b4d808-5a54-46b9-8236-04173135b395" name="Default Changelist" comment="" />
+      <created>1583676942951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583676942951</updated>
+      <workItem from="1583676945472" duration="113000" />
+      <workItem from="1583677073213" duration="5628000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2020" y="98" width="2360" height="1242" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583681804757">
+      <screen x="0" y="27" width="4480" height="1413" />
+    </state>
+    <state x="2020" y="98" width="2360" height="1242" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.4480.1413@0.27.4480.1413" timestamp="1583681804757" />
+    <state x="2402" y="211" width="1643" height="867" key="find.popup" timestamp="1583683542996">
+      <screen x="0" y="27" width="4480" height="1413" />
+    </state>
+    <state x="608" y="263" width="704" height="578" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1583679798046" />
+    <state x="2402" y="211" width="1643" height="867" key="find.popup/0.27.4480.1413@0.27.4480.1413" timestamp="1583683542996" />
+    <state x="1454" y="336" width="1568" height="910" key="search.everywhere.popup" timestamp="1583683609233">
+      <screen x="0" y="27" width="4480" height="1413" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1583678819777" />
+    <state x="1454" y="336" width="1568" height="910" key="search.everywhere.popup/0.27.4480.1413@0.27.4480.1413" timestamp="1583683609233" />
+  </component>
+</project>
