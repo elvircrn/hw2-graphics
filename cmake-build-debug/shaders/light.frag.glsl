@@ -39,16 +39,16 @@ vec3 dehomogenize(vec4 pos) {
 }
 
 void main (void) {
-    vec4 mv_vertex = modelview * myvertex;
+    vec4 mv_myvertex = modelview * myvertex;
     vec4 mv_hom_mynormal = modelview * vec4(mynormal, 1);
 
     vec4 finalcolor = vec4(0, 0, 0, 1);
     for (int i = 0; i < numused; i++) {
         vec3 lightpos = dehomogenize(lightposn[i]);
-        vec3 vertex = dehomogenize(mv_vertex);
-        vec3 rel = lightpos - vertex;
+        vec3 ver = dehomogenize(mv_myvertex);
+        vec3 rel = lightpos - ver;
         vec3 dehom_norm = dehomogenize(mv_hom_mynormal);
-        vec3 final = vertex + 2 * dehom_norm - lightpos;
+        vec3 final = ver + 2 * dehom_norm - lightpos;
 
         float specular_cos_theta, intensity_cos_theta;
         specular_cos_theta = dot(ver, final) / (length(ver) * length(dehom_norm));
@@ -64,5 +64,5 @@ void main (void) {
     // Color all pixels black for now, remove this in your implementation!
 
     fragColor = vec4(finalcolor.x, finalcolor.y, finalcolor.z, 1);
-//    fragColor = lightcolor[0];
+//    fragColor = diffuse;
 }

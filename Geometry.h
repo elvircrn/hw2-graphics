@@ -14,14 +14,8 @@
 #define _GLUT_SHAPES_REPLACEMENT
 
 // OSX systems require different headers
-#ifdef __APPLE__
-#include <OpenGL/gl3.h>
-#include <OpenGL/glext.h>
-#include <GLUT/glut.h>
-#else
 #include <GL/glew.h>
 #include <GL/glut.h>
-#endif
 // Force glm to use radians since usage of degrees is deprecated
 #ifndef GLM_FORCE_RADIANS
 #define GLM_FORCE_RADIANS

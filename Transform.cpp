@@ -7,13 +7,17 @@
 #include "Transform.h"
 
 // Helper rotation function.  Please implement this.  
-mat3 Transform::rotate(const float degrees, const vec3& axis) 
-{
-  mat3 ret;
-  // YOUR CODE FOR HW2 HERE
-  // Please implement this.  Likely the same as in HW 1.  
-  return ret;
+mat3 Transform::rotate(float degrees, const vec3 &axis) {
+  // YOUR CODE FOR HW1 HERE
+  mat3 axisCross{
+      {0, -axis[2], axis[1]},
+      {axis[2], 0, -axis[0]},
+      {-axis[1], axis[0], 0}};
+
+  return glm::transpose((mat3(1) + (float) sin(glm::radians(degrees)) * axisCross)
+      + (1.0f - (float) cos(glm::radians(degrees))) * (axisCross * axisCross));
 }
+
 // Transforms the camera left around the "crystal ball" interface
 void Transform::left(float degrees, vec3 &eye, vec3 &up) {
   eye = rotate(degrees, vec3{0, 1, 0}) * eye;
@@ -26,36 +30,52 @@ void Transform::up(float degrees, vec3 &eye, vec3 &up) {
   eye = rotate(degrees, rotationAxis) * eye;
 }
 
-mat4 Transform::lookAt(const vec3 &eye, const vec3 &center, const vec3 &up)
-{
-  mat4 ret;
-  // YOUR CODE FOR HW2 HERE
-  // Likely the same as in HW 1.  
-  return ret;
+// Your implementation of the glm::lookAt matrixg
+mat4 Transform::lookAt(const vec3 &eye, const vec3 &center, const vec3 &up) {
+  const glm::vec3 &centerEye = eye - center;
+  auto z = glm::normalize(centerEye);
+  auto x = glm::normalize(glm::cross(up, z));
+  auto y = glm::normalize(glm::cross(z, x));
+  return glm::transpose(mat4{{x.x, y.x, z.x, -glm::dot(eye, x)},
+                             {x.y, y.y, z.y, -glm::dot(eye, y)},
+                             {x.z, y.z, z.z, -glm::dot(eye, z)},
+                             {0, 0, 0, 1}});
 }
 
-mat4 Transform::perspective(float fovy, float aspect, float zNear, float zFar)
-{
-  mat4 ret;
-  // YOUR CODE FOR HW2 HERE
-  // New, to implement the perspective transform as well.  
-  return ret;
+mat4 Transform::perspective(float fovy, float aspect, float zNear, float zFar) {
+  // YOUR CODE FOR HW2 HERE - done
+  // New, to implement the perspective transform as well.
+
+  float rad_fovy = glm::radians(fovy);
+  float focal = 1.0f / glm::tan(rad_fovy / 2.0f);
+  // Based on https://www.mathematik.uni-marburg.de/~thormae/lectures/graphics1/graphics_6_1_eng_web.html#19
+  return glm::transpose(mat4{
+      {focal / aspect, 0, 0, 0},
+      {0, focal, 0, 0},
+      {0, 0, (zFar + zNear) / (zNear - zFar), (2 * zFar * zNear) / (zNear - zFar)},
+      {0, 0, -1, 0}
+  });
 }
 
-mat4 Transform::scale(const float &sx, const float &sy, const float &sz) 
-{
+mat4 Transform::scale(const float &sx, const float &sy, const float &sz) {
   mat4 ret;
-  // YOUR CODE FOR HW2 HERE
+  // YOUR CODE FOR HW2 HERE - done
   // Implement scaling 
-  return ret;
+  return mat4{
+      {sx, 0, 0, 0},
+      {0, sy, 0, 0},
+      {0, 0, sz, 0},
+      {0, 0, 0, 1}
+  };
 }
 
-mat4 Transform::translate(const float &tx, const float &ty, const float &tz) 
-{
-  mat4 ret;
-  // YOUR CODE FOR HW2 HERE
-  // Implement translation 
-  return ret;
+mat4 Transform::translate(const float &tx, const float &ty, const float &tz) {
+  return glm::transpose(mat4{
+      {1, 0, 0, tx},
+      {0, 1, 0, ty},
+      {0, 0, 1, tz},
+      {0, 0, 0, 1}
+  });
 }
 
 // To normalize the up direction and construct a coordinate frame.  
@@ -64,21 +84,18 @@ mat4 Transform::translate(const float &tx, const float &ty, const float &tz)
 // This function is provided as a helper, in case you want to use it. 
 // Using this function (in readfile.cpp or display.cpp) is optional.  
 
-vec3 Transform::upvector(const vec3 &up, const vec3 & zvec) 
+vec3 Transform::upvector(const vec3 &up, const vec3 & zvec)
 {
-  vec3 x = glm::cross(up,zvec); 
-  vec3 y = glm::cross(zvec,x); 
-  vec3 ret = glm::normalize(y); 
-  return ret; 
+  vec3 x = glm::cross(up,zvec);
+  vec3 y = glm::cross(zvec,x);
+  vec3 ret = glm::normalize(y);
+  return ret;
 }
 
-
-Transform::Transform()
-{
+Transform::Transform() {
 
 }
 
-Transform::~Transform()
-{
+Transform::~Transform() {
 
 }

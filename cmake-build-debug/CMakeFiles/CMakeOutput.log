@@ -1,4 +1,4 @@
-The system is: Linux - 5.3.0-40-generic - x86_64
+The system is: Linux - 5.3.0-42-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/clang 
 Build flags: 
@@ -28,13 +28,13 @@ The CXX compiler identification is Clang, found in "/home/elvircrn/Downloads/hw2
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_14d0e/fast && /usr/bin/make -f CMakeFiles/cmTC_14d0e.dir/build.make CMakeFiles/cmTC_14d0e.dir/build
+Run Build Command(s):/usr/bin/make cmTC_c490b/fast && /usr/bin/make -f CMakeFiles/cmTC_c490b.dir/build.make CMakeFiles/cmTC_c490b.dir/build
 make[1]: Entering directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_14d0e.dir/testCCompiler.c.o
-/usr/bin/clang    -o CMakeFiles/cmTC_14d0e.dir/testCCompiler.c.o   -c /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_14d0e
-/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14d0e.dir/link.txt --verbose=1
-/usr/bin/clang      CMakeFiles/cmTC_14d0e.dir/testCCompiler.c.o  -o cmTC_14d0e 
+Building C object CMakeFiles/cmTC_c490b.dir/testCCompiler.c.o
+/usr/bin/clang    -o CMakeFiles/cmTC_c490b.dir/testCCompiler.c.o   -c /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c490b
+/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c490b.dir/link.txt --verbose=1
+/usr/bin/clang      CMakeFiles/cmTC_c490b.dir/testCCompiler.c.o  -o cmTC_c490b 
 make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -42,10 +42,10 @@ make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-d
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d0aef/fast && /usr/bin/make -f CMakeFiles/cmTC_d0aef.dir/build.make CMakeFiles/cmTC_d0aef.dir/build
+Run Build Command(s):/usr/bin/make cmTC_7a0b3/fast && /usr/bin/make -f CMakeFiles/cmTC_7a0b3.dir/build.make CMakeFiles/cmTC_7a0b3.dir/build
 make[1]: Entering directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d0aef.dir/CMakeCCompilerABI.c.o
-/usr/bin/clang   -v -o CMakeFiles/cmTC_d0aef.dir/CMakeCCompilerABI.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_7a0b3.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang   -v -o CMakeFiles/cmTC_7a0b3.dir/CMakeCCompilerABI.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c
 clang version 8.0.1- (branches/release_80)
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -54,20 +54,20 @@ Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.5.0
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8
 Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.5.0
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
-Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
 Candidate multilib: .;@m64
 Candidate multilib: 32;@m32
 Candidate multilib: x32;@mx32
 Selected multilib: .;@m64
- "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d0aef.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.1 -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_d0aef.dir/CMakeCCompilerABI.c.o -x c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c -faddrsig
+ "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_7a0b3.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.1 -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_7a0b3.dir/CMakeCCompilerABI.c.o -x c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c -faddrsig
 clang -cc1 version 8.0.1 based upon LLVM 8.0.1 default target x86_64-pc-linux-gnu
 ignoring nonexistent directory "/include"
 #include "..." search starts here:
@@ -77,9 +77,9 @@ ignoring nonexistent directory "/include"
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-Linking C executable cmTC_d0aef
-/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0aef.dir/link.txt --verbose=1
-/usr/bin/clang     -v CMakeFiles/cmTC_d0aef.dir/CMakeCCompilerABI.c.o  -o cmTC_d0aef 
+Linking C executable cmTC_7a0b3
+/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a0b3.dir/link.txt --verbose=1
+/usr/bin/clang     -v CMakeFiles/cmTC_7a0b3.dir/CMakeCCompilerABI.c.o  -o cmTC_7a0b3 
 clang version 8.0.1- (branches/release_80)
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -88,20 +88,20 @@ Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.5.0
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8
 Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.5.0
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
-Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
 Candidate multilib: .;@m64
 Candidate multilib: 32;@m32
 Candidate multilib: x32;@mx32
 Selected multilib: .;@m64
- "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d0aef /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_d0aef.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7a0b3 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_7a0b3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -125,10 +125,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d0aef/fast && /usr/bin/make -f CMakeFiles/cmTC_d0aef.dir/build.make CMakeFiles/cmTC_d0aef.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_7a0b3/fast && /usr/bin/make -f CMakeFiles/cmTC_7a0b3.dir/build.make CMakeFiles/cmTC_7a0b3.dir/build]
   ignore line: [make[1]: Entering directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_d0aef.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/clang   -v -o CMakeFiles/cmTC_d0aef.dir/CMakeCCompilerABI.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_7a0b3.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang   -v -o CMakeFiles/cmTC_7a0b3.dir/CMakeCCompilerABI.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
   ignore line: [clang version 8.0.1- (branches/release_80)]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -137,15 +137,15 @@ Parsed C implicit link information from above output:
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6]
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.5.0]
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.5.0]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
   ignore line: [Candidate multilib: .]
   ignore line: [@m64]
   ignore line: [Candidate multilib: 32]
@@ -154,7 +154,7 @@ Parsed C implicit link information from above output:
   ignore line: [@mx32]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  ignore line: [ "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d0aef.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.1 -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_d0aef.dir/CMakeCCompilerABI.c.o -x c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c -faddrsig]
+  ignore line: [ "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_7a0b3.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.1 -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_7a0b3.dir/CMakeCCompilerABI.c.o -x c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCCompilerABI.c -faddrsig]
   ignore line: [clang -cc1 version 8.0.1 based upon LLVM 8.0.1 default target x86_64-pc-linux-gnu]
   ignore line: [ignoring nonexistent directory "/include"]
   ignore line: [#include "..." search starts here:]
@@ -164,9 +164,9 @@ Parsed C implicit link information from above output:
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [Linking C executable cmTC_d0aef]
-  ignore line: [/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0aef.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/clang     -v CMakeFiles/cmTC_d0aef.dir/CMakeCCompilerABI.c.o  -o cmTC_d0aef ]
+  ignore line: [Linking C executable cmTC_7a0b3]
+  ignore line: [/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a0b3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang     -v CMakeFiles/cmTC_7a0b3.dir/CMakeCCompilerABI.c.o  -o cmTC_7a0b3 ]
   ignore line: [clang version 8.0.1- (branches/release_80)]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -175,15 +175,15 @@ Parsed C implicit link information from above output:
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6]
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.5.0]
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.5.0]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
   ignore line: [Candidate multilib: .]
   ignore line: [@m64]
   ignore line: [Candidate multilib: 32]
@@ -192,7 +192,7 @@ Parsed C implicit link information from above output:
   ignore line: [@mx32]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d0aef /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_d0aef.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7a0b3 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_7a0b3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-zrelro] ==> ignore
     arg [--hash-style=gnu] ==> ignore
@@ -203,20 +203,20 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d0aef] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/crtbegin.o] ==> ignore
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu]
+    arg [cmTC_7a0b3] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu]
     arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../..]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..]
     arg [-L/usr/lib/llvm-8/bin/../lib] ==> dir [/usr/lib/llvm-8/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_d0aef.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_7a0b3.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -226,32 +226,32 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/crtend.o] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.4.0]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
   collapse library dir [/lib/../lib64] ==> [/lib64]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> [/usr/lib]
   collapse library dir [/usr/lib/llvm-8/bin/../lib] ==> [/usr/lib/llvm-8/lib]
   collapse library dir [/lib] ==> [/lib]
   collapse library dir [/usr/lib] ==> [/usr/lib]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7.4.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-8/lib;/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7.5.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-8/lib;/lib]
   implicit fwks: []
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_262b2/fast && /usr/bin/make -f CMakeFiles/cmTC_262b2.dir/build.make CMakeFiles/cmTC_262b2.dir/build
+Run Build Command(s):/usr/bin/make cmTC_3291c/fast && /usr/bin/make -f CMakeFiles/cmTC_3291c.dir/build.make CMakeFiles/cmTC_3291c.dir/build
 make[1]: Entering directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_262b2.dir/testCXXCompiler.cxx.o
-/usr/bin/clang++     -o CMakeFiles/cmTC_262b2.dir/testCXXCompiler.cxx.o -c /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_262b2
-/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_262b2.dir/link.txt --verbose=1
-/usr/bin/clang++       CMakeFiles/cmTC_262b2.dir/testCXXCompiler.cxx.o  -o cmTC_262b2 
+Building CXX object CMakeFiles/cmTC_3291c.dir/testCXXCompiler.cxx.o
+/usr/bin/clang++     -o CMakeFiles/cmTC_3291c.dir/testCXXCompiler.cxx.o -c /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3291c
+/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3291c.dir/link.txt --verbose=1
+/usr/bin/clang++       CMakeFiles/cmTC_3291c.dir/testCXXCompiler.cxx.o  -o cmTC_3291c 
 make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -259,10 +259,10 @@ make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-d
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_77626/fast && /usr/bin/make -f CMakeFiles/cmTC_77626.dir/build.make CMakeFiles/cmTC_77626.dir/build
+Run Build Command(s):/usr/bin/make cmTC_7ce30/fast && /usr/bin/make -f CMakeFiles/cmTC_7ce30.dir/build.make CMakeFiles/cmTC_7ce30.dir/build
 make[1]: Entering directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_77626.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/clang++    -v -o CMakeFiles/cmTC_77626.dir/CMakeCXXCompilerABI.cpp.o -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_7ce30.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++    -v -o CMakeFiles/cmTC_7ce30.dir/CMakeCXXCompilerABI.cpp.o -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
 clang version 8.0.1- (branches/release_80)
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -271,37 +271,37 @@ Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.5.0
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8
 Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.5.0
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
-Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
 Candidate multilib: .;@m64
 Candidate multilib: 32;@m32
 Candidate multilib: x32;@mx32
 Selected multilib: .;@m64
- "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_77626.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.1 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0/backward -internal-isystem /usr/include/clang/8.0.1/include/ -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_77626.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -faddrsig
+ "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_7ce30.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.1 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward -internal-isystem /usr/include/clang/8.0.1/include/ -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_7ce30.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -faddrsig
 clang -cc1 version 8.0.1 based upon LLVM 8.0.1 default target x86_64-pc-linux-gnu
 ignoring nonexistent directory "/include"
-ignoring duplicate directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0"
+ignoring duplicate directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"
 ignoring duplicate directory "/usr/include/clang/8.0.1/include"
 #include "..." search starts here:
 #include <...> search starts here:
- /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0
- /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0
- /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0/backward
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0
+ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward
  /usr/include/clang/8.0.1/include
  /usr/local/include
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-Linking CXX executable cmTC_77626
-/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77626.dir/link.txt --verbose=1
-/usr/bin/clang++      -v CMakeFiles/cmTC_77626.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_77626 
+Linking CXX executable cmTC_7ce30
+/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ce30.dir/link.txt --verbose=1
+/usr/bin/clang++      -v CMakeFiles/cmTC_7ce30.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7ce30 
 clang version 8.0.1- (branches/release_80)
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -310,20 +310,20 @@ Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/8
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.5.0
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
 Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8
 Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.5.0
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7
-Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0
 Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
-Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0
 Candidate multilib: .;@m64
 Candidate multilib: 32;@m32
 Candidate multilib: x32;@mx32
 Selected multilib: .;@m64
- "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_77626 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_77626.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7ce30 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_7ce30.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -331,32 +331,32 @@ make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-d
 Parsed CXX implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0]
-    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0]
-    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0/backward]
+    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0]
+    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0]
+    add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward]
     add: [/usr/include/clang/8.0.1/include]
     add: [/usr/local/include]
     add: [/usr/include/x86_64-linux-gnu]
     add: [/usr/include]
   end of search list found
-  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0] ==> [/usr/include/c++/7.4.0]
-  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0] ==> [/usr/include/x86_64-linux-gnu/c++/7.4.0]
-  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0/backward] ==> [/usr/include/c++/7.4.0/backward]
+  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0] ==> [/usr/include/c++/7.5.0]
+  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0] ==> [/usr/include/x86_64-linux-gnu/c++/7.5.0]
+  collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward] ==> [/usr/include/c++/7.5.0/backward]
   collapse include dir [/usr/include/clang/8.0.1/include] ==> [/usr/include/clang/8.0.1/include]
   collapse include dir [/usr/local/include] ==> [/usr/local/include]
   collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
   collapse include dir [/usr/include] ==> [/usr/include]
-  implicit include dirs: [/usr/include/c++/7.4.0;/usr/include/x86_64-linux-gnu/c++/7.4.0;/usr/include/c++/7.4.0/backward;/usr/include/clang/8.0.1/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+  implicit include dirs: [/usr/include/c++/7.5.0;/usr/include/x86_64-linux-gnu/c++/7.5.0;/usr/include/c++/7.5.0/backward;/usr/include/clang/8.0.1/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_77626/fast && /usr/bin/make -f CMakeFiles/cmTC_77626.dir/build.make CMakeFiles/cmTC_77626.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_7ce30/fast && /usr/bin/make -f CMakeFiles/cmTC_7ce30.dir/build.make CMakeFiles/cmTC_7ce30.dir/build]
   ignore line: [make[1]: Entering directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_77626.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/clang++    -v -o CMakeFiles/cmTC_77626.dir/CMakeCXXCompilerABI.cpp.o -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_7ce30.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++    -v -o CMakeFiles/cmTC_7ce30.dir/CMakeCXXCompilerABI.cpp.o -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [clang version 8.0.1- (branches/release_80)]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -365,15 +365,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6]
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.5.0]
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.5.0]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
   ignore line: [Candidate multilib: .]
   ignore line: [@m64]
   ignore line: [Candidate multilib: 32]
@@ -382,24 +382,24 @@ Parsed CXX implicit link information from above output:
   ignore line: [@mx32]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  ignore line: [ "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_77626.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.1 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0/backward -internal-isystem /usr/include/clang/8.0.1/include/ -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_77626.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -faddrsig]
+  ignore line: [ "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_7ce30.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.1 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward -internal-isystem /usr/include/clang/8.0.1/include/ -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_7ce30.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -faddrsig]
   ignore line: [clang -cc1 version 8.0.1 based upon LLVM 8.0.1 default target x86_64-pc-linux-gnu]
   ignore line: [ignoring nonexistent directory "/include"]
-  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"]
   ignore line: [ignoring duplicate directory "/usr/include/clang/8.0.1/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0]
-  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/x86_64-linux-gnu/c++/7.4.0]
-  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../../include/c++/7.4.0/backward]
+  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0]
+  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0]
+  ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward]
   ignore line: [ /usr/include/clang/8.0.1/include]
   ignore line: [ /usr/local/include]
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [Linking CXX executable cmTC_77626]
-  ignore line: [/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77626.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/clang++      -v CMakeFiles/cmTC_77626.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_77626 ]
+  ignore line: [Linking CXX executable cmTC_7ce30]
+  ignore line: [/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ce30.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++      -v CMakeFiles/cmTC_7ce30.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7ce30 ]
   ignore line: [clang version 8.0.1- (branches/release_80)]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -408,15 +408,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6]
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.5.0]
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
   ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/8]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/8]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.5.0]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7]
-  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.4.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/7.5.0]
   ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8]
-  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
   ignore line: [Candidate multilib: .]
   ignore line: [@m64]
   ignore line: [Candidate multilib: 32]
@@ -425,7 +425,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@mx32]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_77626 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_77626.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7ce30 /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_7ce30.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-zrelro] ==> ignore
     arg [--hash-style=gnu] ==> ignore
@@ -436,20 +436,20 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_77626] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/crtbegin.o] ==> ignore
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu]
+    arg [cmTC_7ce30] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu]
     arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../..]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..]
     arg [-L/usr/lib/llvm-8/bin/../lib] ==> dir [/usr/lib/llvm-8/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_77626.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_7ce30.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -457,32 +457,32 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/crtend.o] ==> ignore
-    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.4.0]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/7.5.0]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
   collapse library dir [/lib/../lib64] ==> [/lib64]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.4.0/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../..] ==> [/usr/lib]
   collapse library dir [/usr/lib/llvm-8/bin/../lib] ==> [/usr/lib/llvm-8/lib]
   collapse library dir [/lib] ==> [/lib]
   collapse library dir [/usr/lib] ==> [/usr/lib]
   implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7.4.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-8/lib;/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7.5.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-8/lib;/lib]
   implicit fwks: []
 
 
 Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
 Change Dir: /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b5c74/fast && /usr/bin/make -f CMakeFiles/cmTC_b5c74.dir/build.make CMakeFiles/cmTC_b5c74.dir/build
+Run Build Command(s):/usr/bin/make cmTC_256cd/fast && /usr/bin/make -f CMakeFiles/cmTC_256cd.dir/build.make CMakeFiles/cmTC_256cd.dir/build
 make[1]: Entering directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b5c74.dir/CheckFunctionExists.c.o
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_b5c74.dir/CheckFunctionExists.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b5c74
-/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5c74.dir/link.txt --verbose=1
-/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_b5c74.dir/CheckFunctionExists.c.o  -o cmTC_b5c74 /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+Building C object CMakeFiles/cmTC_256cd.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_256cd.dir/CheckFunctionExists.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_256cd
+/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_256cd.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_256cd.dir/CheckFunctionExists.c.o  -o cmTC_256cd /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
 make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -490,13 +490,13 @@ make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-d
 Determining if the function gethostbyname exists passed with the following output:
 Change Dir: /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a8990/fast && /usr/bin/make -f CMakeFiles/cmTC_a8990.dir/build.make CMakeFiles/cmTC_a8990.dir/build
+Run Build Command(s):/usr/bin/make cmTC_5cbdd/fast && /usr/bin/make -f CMakeFiles/cmTC_5cbdd.dir/build.make CMakeFiles/cmTC_5cbdd.dir/build
 make[1]: Entering directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a8990.dir/CheckFunctionExists.c.o
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_a8990.dir/CheckFunctionExists.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a8990
-/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8990.dir/link.txt --verbose=1
-/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_a8990.dir/CheckFunctionExists.c.o  -o cmTC_a8990 
+Building C object CMakeFiles/cmTC_5cbdd.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_5cbdd.dir/CheckFunctionExists.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5cbdd
+/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cbdd.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_5cbdd.dir/CheckFunctionExists.c.o  -o cmTC_5cbdd 
 make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -504,13 +504,13 @@ make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-d
 Determining if the function connect exists passed with the following output:
 Change Dir: /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_aad35/fast && /usr/bin/make -f CMakeFiles/cmTC_aad35.dir/build.make CMakeFiles/cmTC_aad35.dir/build
+Run Build Command(s):/usr/bin/make cmTC_0dcbb/fast && /usr/bin/make -f CMakeFiles/cmTC_0dcbb.dir/build.make CMakeFiles/cmTC_0dcbb.dir/build
 make[1]: Entering directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aad35.dir/CheckFunctionExists.c.o
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_aad35.dir/CheckFunctionExists.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
-Linking C executable cmTC_aad35
-/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aad35.dir/link.txt --verbose=1
-/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_aad35.dir/CheckFunctionExists.c.o  -o cmTC_aad35 
+Building C object CMakeFiles/cmTC_0dcbb.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_0dcbb.dir/CheckFunctionExists.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0dcbb
+/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dcbb.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_0dcbb.dir/CheckFunctionExists.c.o  -o cmTC_0dcbb 
 make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -518,13 +518,13 @@ make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-d
 Determining if the function remove exists passed with the following output:
 Change Dir: /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_11df5/fast && /usr/bin/make -f CMakeFiles/cmTC_11df5.dir/build.make CMakeFiles/cmTC_11df5.dir/build
+Run Build Command(s):/usr/bin/make cmTC_4c478/fast && /usr/bin/make -f CMakeFiles/cmTC_4c478.dir/build.make CMakeFiles/cmTC_4c478.dir/build
 make[1]: Entering directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_11df5.dir/CheckFunctionExists.c.o
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_11df5.dir/CheckFunctionExists.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
-Linking C executable cmTC_11df5
-/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11df5.dir/link.txt --verbose=1
-/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_11df5.dir/CheckFunctionExists.c.o  -o cmTC_11df5 
+Building C object CMakeFiles/cmTC_4c478.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_4c478.dir/CheckFunctionExists.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4c478
+/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c478.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_4c478.dir/CheckFunctionExists.c.o  -o cmTC_4c478 
 make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -532,13 +532,13 @@ make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-d
 Determining if the function shmat exists passed with the following output:
 Change Dir: /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d0fc3/fast && /usr/bin/make -f CMakeFiles/cmTC_d0fc3.dir/build.make CMakeFiles/cmTC_d0fc3.dir/build
+Run Build Command(s):/usr/bin/make cmTC_f83be/fast && /usr/bin/make -f CMakeFiles/cmTC_f83be.dir/build.make CMakeFiles/cmTC_f83be.dir/build
 make[1]: Entering directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d0fc3.dir/CheckFunctionExists.c.o
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_d0fc3.dir/CheckFunctionExists.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d0fc3
-/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0fc3.dir/link.txt --verbose=1
-/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_d0fc3.dir/CheckFunctionExists.c.o  -o cmTC_d0fc3 
+Building C object CMakeFiles/cmTC_f83be.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_f83be.dir/CheckFunctionExists.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f83be
+/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f83be.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_f83be.dir/CheckFunctionExists.c.o  -o cmTC_f83be 
 make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -546,13 +546,13 @@ make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-d
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
 Change Dir: /home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e5909/fast && /usr/bin/make -f CMakeFiles/cmTC_e5909.dir/build.make CMakeFiles/cmTC_e5909.dir/build
+Run Build Command(s):/usr/bin/make cmTC_4a98d/fast && /usr/bin/make -f CMakeFiles/cmTC_4a98d.dir/build.make CMakeFiles/cmTC_4a98d.dir/build
 make[1]: Entering directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e5909.dir/CheckFunctionExists.c.o
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_e5909.dir/CheckFunctionExists.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e5909
-/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5909.dir/link.txt --verbose=1
-/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_e5909.dir/CheckFunctionExists.c.o  -o cmTC_e5909 -lICE 
+Building C object CMakeFiles/cmTC_4a98d.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_4a98d.dir/CheckFunctionExists.c.o   -c /home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4a98d
+/home/elvircrn/Desktop/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a98d.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_4a98d.dir/CheckFunctionExists.c.o  -o cmTC_4a98d -lICE 
 make[1]: Leaving directory '/home/elvircrn/Downloads/hw2-linux_osx/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 

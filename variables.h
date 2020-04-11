@@ -37,7 +37,7 @@ EXTERN bool useGlu; // Toggle use of "official" opengl/glm transform vs user
 EXTERN GLuint vertexshader, fragmentshader, shaderprogram ; // shaders
 EXTERN mat4 projection, modelview; // The mvp matrices
 EXTERN GLuint projectionPos, modelviewPos; // Uniform locations of the above matrices
-static enum {view, translate, scale} transop ; // which operation to transform 
+static enum {view, translate, scale} transop ; // which operation to transform
 enum shape {cube, sphere, teapot} ;
 EXTERN float sx, sy ; // the scale in x and y 
 EXTERN float tx, ty ; // the translation in x and y
@@ -80,5 +80,6 @@ EXTERN GLuint ambientcol ;
 EXTERN GLuint diffusecol ; 
 EXTERN GLuint specularcol ; 
 EXTERN GLuint emissioncol ; 
-EXTERN GLuint shininesscol ; 
+EXTERN GLuint shininesscol ;
+EXTERN GLuint color;
 

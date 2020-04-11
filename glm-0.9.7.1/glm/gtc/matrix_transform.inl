@@ -500,7 +500,6 @@ namespace glm
 		Result[1][1] = u.y;
 		Result[2][1] = u.z;
 		Result[0][2] =-f.x;
-		Result[1][2] =-f.y;
 		Result[2][2] =-f.z;
 		Result[3][0] =-dot(s, eye);
 		Result[3][1] =-dot(u, eye);

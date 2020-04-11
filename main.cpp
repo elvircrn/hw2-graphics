@@ -24,8 +24,7 @@
 #include <FreeImage.h>
 #include "UCSD/grader.h"
 #include "Geometry.h"
-
-using namespace std; 
+using namespace std;
 
 // Main variables in the program.  
 #define MAINPROGRAM 
@@ -168,8 +167,8 @@ void specialKey(int key, int x, int y) {
 
 void init() {
   // Initialize shaders
-  vertexshader = initshaders(GL_VERTEX_SHADER, "shaders/light.vert.glsl") ;
-  fragmentshader = initshaders(GL_FRAGMENT_SHADER, "shaders/light.frag.glsl") ;
+  vertexshader = initshaders(GL_VERTEX_SHADER, "/home/elvircrn/Downloads/hw2-linux_osx/shaders/light.vert.glsl") ;
+  fragmentshader = initshaders(GL_FRAGMENT_SHADER, "/home/elvircrn/Downloads/hw2-linux_osx/shaders/light.frag.glsl") ;
   shaderprogram = initprogram(vertexshader, fragmentshader) ; 
   // Get locations of all uniform variables.
   enablelighting = glGetUniformLocation(shaderprogram,"enablelighting") ;
