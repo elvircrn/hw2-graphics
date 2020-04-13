@@ -18,6 +18,8 @@ out vec4 fragColor;
 
 uniform vec3 color;
 
+uniform float EPSILON = 0.0000000001;
+
 const int numLights = 10;
 uniform bool enablelighting;// are we lighting at all (global).
 uniform vec4 lightposn[numLights];// positions of lights
@@ -28,34 +30,60 @@ uniform int numused;// number of lights used
 // I use ambient, diffuse, specular, shininess.
 // But, the ambient is just additive and doesn't multiply the lights.
 
-uniform vec4 ambient;
-uniform vec4 diffuse;
-uniform vec4 specular;
+uniform vec4 ambient;// done
+uniform vec4 diffuse;// done
+uniform vec4 specular;//
 uniform vec4 emission;
 uniform float shininess;
 
 vec3 dehomogenize(vec4 pos) {
-    return vec3(pos.x / pos.w, pos.y / pos.w, pos.z / pos.w);
+    return pos.xyz / pos.w;
+}
+
+bool is_zero(vec4 vec) {
+    return all(lessThan(abs(vec), vec4(EPSILON)));
+}
+
+bool is_zero(vec3 vec) {
+    return all(lessThan(abs(vec), vec3(EPSILON)));
+}
+
+bool is_directional(vec4 light_pos) {
+    return abs(light_pos.w) < EPSILON;
+}
+
+
+float zmax(float theta) {
+    return max(0, cos(theta));
 }
 
 void main (void) {
-    vec4 mv_myvertex = modelview * myvertex;
-    vec4 mv_hom_mynormal = modelview * vec4(mynormal, 1);
+    vec4 finalcolor = vec4(0, 0, 0, 0);
+    vec3 vertex = dehomogenize(myvertex);
+    vec3 normal = normalize(mynormal);
+    vec3 eye = normalize(-vertex);
 
-    vec4 finalcolor = vec4(0, 0, 0, 1);
     for (int i = 0; i < numused; i++) {
-        vec3 lightpos = dehomogenize(lightposn[i]);
-        vec3 ver = dehomogenize(mv_myvertex);
-        vec3 rel = lightpos - ver;
-        vec3 dehom_norm = dehomogenize(mv_hom_mynormal);
-        vec3 final = ver + 2 * dehom_norm - lightpos;
+        vec3 light = lightposn[i].xyz;
+        if (!is_directional(lightposn[i])) {
+            light = dehomogenize(lightposn[i]);
+        }
+        light = normalize(light);
+        vec3 rel = normalize(light - vertex);// from vertex to light pos
 
         float specular_cos_theta, intensity_cos_theta;
-        specular_cos_theta = dot(ver, final) / (length(ver) * length(dehom_norm));
-        intensity_cos_theta = dot(dehom_norm, final) / (length(dehom_norm) * length(dehom_norm));
+        intensity_cos_theta = zmax(dot(rel, normal));
 
-        finalcolor += specular_cos_theta * intensity_cos_theta * lightcolor[i];
+        vec4 lambertian = intensity_cos_theta * diffuse * lightcolor[i];
+
+        vec3 _half = eye + normalize(light - vertex);
+
+        vec4 phong = pow(zmax(dot(_half, eye)), shininess) * specular * lightcolor[i];
+
+        finalcolor += phong;
     }
+
+//    finalcolor += ambient + emission;
 
 
     // YOUR CODE FOR HW 2 HERE
@@ -63,6 +91,5 @@ void main (void) {
 
     // Color all pixels black for now, remove this in your implementation!
 
-    fragColor = vec4(finalcolor.x, finalcolor.y, finalcolor.z, 1);
-//    fragColor = diffuse;
+    fragColor = finalcolor;
 }

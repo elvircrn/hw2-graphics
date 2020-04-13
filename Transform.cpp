@@ -9,18 +9,20 @@
 // Helper rotation function.  Please implement this.  
 mat3 Transform::rotate(float degrees, const vec3 &axis) {
   // YOUR CODE FOR HW1 HERE
-  mat3 axisCross{
+  float radians = glm::radians(degrees);
+  mat3 axisCross = glm::transpose(mat3{
       {0, -axis[2], axis[1]},
       {axis[2], 0, -axis[0]},
-      {-axis[1], axis[0], 0}};
+      {-axis[1], axis[0], 0}});
+  mat3 I(1);
 
-  return glm::transpose((mat3(1) + (float) sin(glm::radians(degrees)) * axisCross)
-      + (1.0f - (float) cos(glm::radians(degrees))) * (axisCross * axisCross));
+  return (I + (float) glm::sin(radians) * axisCross)
+      + (1.0f - (float) glm::cos(radians)) * (axisCross * axisCross);
 }
 
 // Transforms the camera left around the "crystal ball" interface
 void Transform::left(float degrees, vec3 &eye, vec3 &up) {
-  eye = rotate(degrees, vec3{0, 1, 0}) * eye;
+  eye = rotate(degrees, up) * eye;
 }
 
 // Transforms the camera up around the "crystal ball" interface
