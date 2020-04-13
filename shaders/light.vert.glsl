@@ -14,7 +14,7 @@ out vec3 mynormal;
 out vec4 myvertex;
 
 void main() {
-    gl_Position = projection * modelview * vec4(position, 1.0f); 
+    gl_Position = projection * modelview * vec4(position, 1.0f);
 	// Forward these vectors to the fragment shader
 	mynormal = normal;
 	myvertex = vec4(position, 1.0f);

@@ -54,41 +54,43 @@ bool is_directional(vec4 light_pos) {
 
 
 float zmax(float theta) {
-    return max(0, cos(theta));
+    return max(0, theta);
 }
 
+vec3 calculate_normalized_light_direction(vec4 light_position, vec3 vertex) {
+    if (is_directional(light_position)) {
+        return normalize(light_position.xyz);
+    } else {
+        vec3 light_position = dehomogenize(light_position);
+        return normalize(light_position - vertex);
+    }
+}
+
+vec4 compute_phong_lambert(vec3 normalized_light_direction, vec3 normal, vec4 diffuse, vec4 light_color,
+            float shininess, vec4 specular, vec3 normalized_eye_direction) {
+    float intensity_cos_theta = zmax(dot(normalized_light_direction, normal));
+    vec4 lambertian = intensity_cos_theta * diffuse * light_color;
+
+    vec3 half_vector = normalize(normalized_eye_direction + normalized_light_direction);
+    vec4 phong = pow(zmax(dot(half_vector, normal)), shininess) * specular * light_color;
+
+    return phong + lambertian;
+}
+
+
 void main (void) {
-    vec4 finalcolor = vec4(0);
     vec3 vertex = dehomogenize(modelview * myvertex);
     vec3 normal = normalize(mat3(transpose(inverse(modelview))) * mynormal);
-    vec3 eye = -vertex;
 
+    // In OpenGL, eye is always located in the origin of the world, looking down (0, 0, -1).
+    vec3 eye_position = vec3(0);
+    vec3 normalized_eye_direction = normalize(eye_position - vertex);
+
+    vec4 blinn_phong = ambient + emission;
     for (int i = 0; i < numused; i++) {
-        vec3 light_global = lightposn[i].xyz;
-        if (!is_directional(lightposn[i])) {
-            light_global = dehomogenize(lightposn[i]);
-        }
-        light_global = normalize(light_global);
-        vec3 light = normalize(light_global - vertex);// from vertex to light pos
-
-        float intensity_cos_theta = zmax(dot(light, normal));
-
-        vec4 lambertian = intensity_cos_theta * diffuse * lightcolor[i];
-
-        vec3 _half = normalize(eye + normalize(light_global - vertex));
-
-        vec4 phong = pow(zmax(dot(_half, eye)), shininess) * specular * lightcolor[i];
-
-        finalcolor += lambertian;
+        vec3 normalized_light_direction = calculate_normalized_light_direction(lightposn[i], vertex);
+        blinn_phong += compute_phong_lambert(normalized_light_direction, normal, diffuse, lightcolor[i], shininess, specular, normalized_eye_direction);
     }
 
-//    finalcolor += ambient + emission;
-
-
-    // YOUR CODE FOR HW 2 HERE
-    // A key part is implementation of the fragment shader
-
-    // Color all pixels black for now, remove this in your implementation!
-
-    fragColor = finalcolor;
+    fragColor = blinn_phong;
 }

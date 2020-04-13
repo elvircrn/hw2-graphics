@@ -13,13 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f5b4d808-5a54-46b9-8236-04173135b395" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transform.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Transform.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graphics.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graphics.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graphics.dir/display.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graphics.dir/display.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/graphics" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/graphics" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/light.frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/light.frag.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/display.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/display.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shaders/light.frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shaders/light.frag.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaders/light.vert.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shaders/light.vert.glsl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +98,7 @@
       <workItem from="1586651828555" duration="2588000" />
       <workItem from="1586656574358" duration="27621000" />
       <workItem from="1586809585435" duration="740000" />
-      <workItem from="1586812745117" duration="4181000" />
+      <workItem from="1586812745117" duration="8576000" />
     </task>
     <servers />
   </component>
@@ -135,22 +130,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1586029863297" />
-    <state width="914" height="220" key="GridCell.Tab.0.bottom" timestamp="1586817611472">
+    <state width="914" height="220" key="GridCell.Tab.0.bottom" timestamp="1586822018996">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="220" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1586817611472" />
-    <state width="914" height="220" key="GridCell.Tab.0.center" timestamp="1586817611471">
+    <state width="914" height="220" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1586822018996" />
+    <state width="914" height="220" key="GridCell.Tab.0.center" timestamp="1586822018995">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="220" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1586817611471" />
-    <state width="914" height="220" key="GridCell.Tab.0.left" timestamp="1586817611471">
+    <state width="914" height="220" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1586822018995" />
+    <state width="914" height="220" key="GridCell.Tab.0.left" timestamp="1586822018995">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="220" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1586817611471" />
-    <state width="914" height="220" key="GridCell.Tab.0.right" timestamp="1586817611472">
+    <state width="914" height="220" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1586822018995" />
+    <state width="914" height="220" key="GridCell.Tab.0.right" timestamp="1586822018996">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="220" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1586817611472" />
+    <state width="914" height="220" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1586822018996" />
     <state width="914" height="406" key="GridCell.Tab.1.bottom" timestamp="1586816385325">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -167,10 +162,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="914" height="406" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1586816385324" />
-    <state x="449" y="187" key="SettingsEditor" timestamp="1586814355934">
+    <state x="449" y="187" key="SettingsEditor" timestamp="1586820755787">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="449" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1586814355934" />
+    <state x="449" y="187" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1586820755787" />
     <state x="257" y="238" width="435" height="629" key="VCS.ChangeListViewerDialog" timestamp="1586802486226">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -184,10 +179,10 @@
     </state>
     <state x="866" y="80" width="992" height="926" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1586785056630" />
     <state x="2020" y="98" width="2360" height="1242" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.4480.1413@0.27.4480.1413" timestamp="1583681804757" />
-    <state x="711" y="234" width="488" height="637" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586025155865">
+    <state x="711" y="234" width="488" height="637" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586820722700">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="711" y="234" width="488" height="637" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1586025155864" />
+    <state x="711" y="234" width="488" height="637" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1586820722700" />
     <state x="15" y="271" width="920" height="562" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586625391570">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -205,10 +200,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="624" y="253" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1586029154975" />
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1586816361722">
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1586820732331">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1586816361722" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1586820732331" />
     <state x="1454" y="336" width="1568" height="910" key="search.everywhere.popup/0.27.4480.1413@0.27.4480.1413" timestamp="1583683609233" />
   </component>
   <component name="XDebuggerManager">
