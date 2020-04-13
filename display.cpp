@@ -5,7 +5,7 @@
 
 // This file is display.cpp.  It includes the skeleton for the display routine
 
-// Basic includes to get this file to work.  
+// Basic includes to get this file to work.
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -29,11 +29,11 @@ using namespace std ;
 #include "variables.h"
 #include "readfile.h"
 
-// New helper transformation function to transform vector by modelview 
+// New helper transformation function to transform vector by modelview
 // May be better done using newer glm functionality.
-// Provided for your convenience.  Use is optional.  
-// Some of you may want to use the more modern routines in readfile.cpp 
-// that can also be used.  
+// Provided for your convenience.  Use is optional.
+// Some of you may want to use the more modern routines in readfile.cpp
+// that can also be used.
 void transformvec (const GLfloat input[4], GLfloat output[4])
 {
   glm::vec4 inputvec(input[0], input[1], input[2], input[3]);
@@ -57,14 +57,14 @@ void display()
   }
 
 
-  // Lights are transformed by current modelview matrix. 
-  // The shader can't do this globally. 
+  // Lights are transformed by current modelview matrix.
+  // The shader can't do this globally.
   // So we need to do so manually.
   if (numused) {
     glUniform1i(enablelighting,true);
 
     // YOUR CODE FOR HW 2 HERE. - done
-    // You need to pass the light positions and colors to the shader. 
+    // You need to pass the light positions and colors to the shader.
     // glUniform4fv() and similar functions will be useful. See FAQ for help with these functions.
     // The lightransf[] array in variables.h and transformvec() might also be useful here.
     // Remember that light positions must be transformed by modelview.
@@ -81,14 +81,14 @@ void display()
     glUniform1i(enablelighting,false);
   }
 
-  // Transformations for objects, involving translation and scaling 
+  // Transformations for objects, involving translation and scaling
   mat4 sc(1.0) , tr(1.0), transf(1.0);
   sc = Transform::scale(sx,sy,1.0);
   tr = Transform::translate(tx,ty,0.0);
 
   // YOUR CODE FOR HW 2 HERE.  - done
-  // You need to use scale, translate and modelview to 
-  // set up the net transformation matrix for the objects.  
+  // You need to use scale, translate and modelview to
+  // set up the net transformation matrix for the objects.
   // Account for GLM issues, matrix order, etc.
   transf = modelview * tr * sc;
 
@@ -102,7 +102,7 @@ void display()
     object* obj = &(objects[i]); // Grabs an object struct.
 
     // YOUR CODE FOR HW 2 HERE.  - done
-    // Set up the object transformations 
+    // Set up the object transformations
     // And pass in the appropriate material properties
     // Again glUniform() related functions will be useful
     modelview = transf * obj->transform;
@@ -114,7 +114,7 @@ void display()
     glUniformMatrix4fv(modelviewPos, 1, GL_FALSE, &(obj->transform[0][0]));
 
     // Actually draw the object
-    // We provide the actual drawing functions for you.  
+    // We provide the actual drawing functions for you.
     // Remember that obj->type is notation for accessing struct fields
     if (obj->type == cube) {
       solidCube(obj->size);

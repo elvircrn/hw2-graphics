@@ -58,29 +58,28 @@ float zmax(float theta) {
 }
 
 void main (void) {
-    vec4 finalcolor = vec4(0, 0, 0, 0);
-    vec3 vertex = dehomogenize(myvertex);
-    vec3 normal = normalize(mynormal);
-    vec3 eye = normalize(-vertex);
+    vec4 finalcolor = vec4(0);
+    vec3 vertex = dehomogenize(modelview * myvertex);
+    vec3 normal = normalize(mat3(transpose(inverse(modelview))) * mynormal);
+    vec3 eye = -vertex;
 
     for (int i = 0; i < numused; i++) {
-        vec3 light = lightposn[i].xyz;
+        vec3 light_global = lightposn[i].xyz;
         if (!is_directional(lightposn[i])) {
-            light = dehomogenize(lightposn[i]);
+            light_global = dehomogenize(lightposn[i]);
         }
-        light = normalize(light);
-        vec3 rel = normalize(light - vertex);// from vertex to light pos
+        light_global = normalize(light_global);
+        vec3 light = normalize(light_global - vertex);// from vertex to light pos
 
-        float specular_cos_theta, intensity_cos_theta;
-        intensity_cos_theta = zmax(dot(rel, normal));
+        float intensity_cos_theta = zmax(dot(light, normal));
 
         vec4 lambertian = intensity_cos_theta * diffuse * lightcolor[i];
 
-        vec3 _half = eye + normalize(light - vertex);
+        vec3 _half = normalize(eye + normalize(light_global - vertex));
 
         vec4 phong = pow(zmax(dot(_half, eye)), shininess) * specular * lightcolor[i];
 
-        finalcolor += phong;
+        finalcolor += lambertian;
     }
 
 //    finalcolor += ambient + emission;
